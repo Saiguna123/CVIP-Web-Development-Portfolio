@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+
+body{
+    padding: 5px 30px 5px 30px;
+    margin: 0;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: larger;
+}
+
+ul li:hover{
+    text-decoration: underline;
+}
+
+.talk{
+    padding: 5px 10px 5px 10px;
+    margin: 0px 20px 0px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: larger;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.talk:hover{
+    border-color: black;
+}
+
+.landing{
+    height: 600px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.landing h1{
+    font-size: 60px;
+    font-family: 'Press Start 2P';
+}
+
+.landing h2{
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text{
+    color: rgb(255, 30, 0);
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img{
+    width: 75%;
+    height: 75%;
+    border-radius: 15px;
+}
+
+.about{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.about h1{
+    color: #efd033;
+}
+
+font{
+    font-family: 'Roboto Slab', serif;
+}
+
+.about p{
+    padding: 0px 40px 0px 40px;
+    font-weight: 40;
+    font-size: x-large;
+    font-family: 'Kay Pho Du', serif;
+}
+
+.skills{
+    height: 600px;
+    background-color: black;
+    color: #efd033;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.set{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills .first,.second,.third,.fourth{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    color: black;
+    background-color: #f5f5dc;
+    margin: 20px 20px 20px 20px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills h1{
+    padding: 20px 0px 0px 0px;
+}
+
+.skills h2{
+    padding-bottom: 0px;
+}
+
+.projects{
+    height: 400px;
+    background-color: black;
+    color: #efd033;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.projects .set1{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.projects .p1,.p2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    background-color: #f5f5dc;
+    color: black;
+    margin: 5px 20px 5px 20px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects p{
+    font-family: 'Kay Pho Du', serif;
+    padding: 0px 15px 0px 15px;
+}
+
+.contact{
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0px 0px 10px 0px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px 0px 10px 0px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+}
+
+
